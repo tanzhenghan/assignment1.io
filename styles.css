@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #A0A0A0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  display: block;  
+  text-align: center;
+  padding: 1px 50px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+
+div.a {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 125px;
+}
+
+div.d {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 125px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+div.b {
+  text-align: justify;
+  margin: 50px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.bg {
+  background-image: url("homepicture.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+
+.text-block0 {
+  position: absolute;
+  bottom: 450px;
+  right: 475px;
+  background-color: transparent;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 475px;
+  right: 175px;
+  background-color: transparent;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block1 {
+  position: absolute;
+  bottom: 75px;
+  right: 1050px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block2 {
+  position: absolute;
+  bottom: 75px;
+  right: 620px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block3 {
+  position: absolute;
+  bottom: 75px;
+  right: 250px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a, a:hover, a:focus, a:active { 
+text-decoration: underline; 
+color: inherit; 
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
